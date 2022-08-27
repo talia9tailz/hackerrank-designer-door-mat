@@ -49,7 +49,7 @@ class DesignerDoorMat(DoorMat):
 
 
 # driver code
-n = 0
+n = int(input().split()[0])
 while n % 2 == 0:
     n = int(input("Please supply an odd number: ").split()[0])
 
